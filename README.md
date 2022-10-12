@@ -8,7 +8,10 @@ Here is the entirety of the code:
 Example of the folder before:
 <img width="929" alt="Screen Shot 2022-10-12 at 3 56 37 PM" src="https://user-images.githubusercontent.com/107063397/195448238-b1450822-a55f-4b23-bc48-6aad89867482.png">
 
-Now I run the code, and this is the result:
+Now I run the code after I have cd'd into the designated folder.
+The first folder gets all .txt files with only a capital letter as the name.
+The second folder gets all files with "py_" at the beginning.
+The third folder will get all files with a .py extension at the end. 
 <img width="926" alt="Screen Shot 2022-10-12 at 4 03 00 PM" src="https://user-images.githubusercontent.com/107063397/195448291-90b8bd2e-10f6-4704-8134-5bbe906e7f5a.png">
 And here is what the inside of the folers look like:
 <img width="920" alt="Screen Shot 2022-10-12 at 4 03 19 PM" src="https://user-images.githubusercontent.com/107063397/195448326-0e4e7335-c410-463d-9eea-9ef12034618a.png">

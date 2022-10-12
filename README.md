@@ -1,6 +1,10 @@
 # Python_FileSort
 Sorts files into folders based on their file types or names. I only did 3 examples, but with glob you could select for any number of complex named files into any folder.
 
+Here is the entirety of the code:
+<img width="816" alt="Screen Shot 2022-10-12 at 4 09 18 PM" src="https://user-images.githubusercontent.com/107063397/195448512-3773519c-8760-4b66-941e-b3937879dddc.png">
+
+
 Example of the folder before:
 <img width="929" alt="Screen Shot 2022-10-12 at 3 56 37 PM" src="https://user-images.githubusercontent.com/107063397/195448238-b1450822-a55f-4b23-bc48-6aad89867482.png">
 

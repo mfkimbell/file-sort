@@ -1,0 +1,31 @@
+import os
+import shutil
+import glob
+from pathlib import Path
+filelist1 = glob.glob(f'[A-Z].txt')
+filelist2 = glob.glob(f'py_*')
+filelist3 = glob.glob(f'*.py')
+
+for file in filelist1:
+    currentFilepath = (os.path.abspath(file))
+    destinationFilepath = Path('/Users/mitchellkimbell/Desktop/Example/letters', file)
+    os.rename(currentFilepath,destinationFilepath)
+    # os.replace(y,j)
+    # shutil.move(y,j)
+    #current = current filepath: /Users/mitchellkimbell/Desktop/Python/A.txt
+    #destination = desired filepath: /Users/mitchellkimbell/Desktop/Python/letters/A.txt
+    
+for file in filelist2:
+    y = (os.path.abspath(file))
+    print(y)
+    j = Path('/Users/mitchellkimbell/Desktop/Example/Python txt', file)
+    os.rename(y,j)
+
+for file in filelist3:
+    y = (os.path.abspath(file))
+    print(y)
+    j = Path('/Users/mitchellkimbell/Desktop/Example/Python py', file)
+    os.rename(y,j)
+    
+
+

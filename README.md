@@ -1,4 +1,7 @@
 # Python_FileSort
+
+The purpose of this project was to practice manipulating files on my computer with `Glob`.
+
 Sorts files into folders based on their file types or names. I only did 3 examples, but with glob you could select for any number of complex named files into any folder.
 
 Here is the entirety of the code:
